@@ -14,7 +14,7 @@ if st.button("Summarize"):
   if long_tex.strip():
     with st.spinner("Generating summary..."):
       summary = summarizer(long_text,max_length,min_length=min_length, do_sample=False)
-      st.subheader("Summary!")
-      st.success(summary[0]8
+      st.subheader("Summary:")
+      st.success(summary[0]['summary_texe'])
   else
   st.warning("⚠️ Please enter some text to summarize.")
