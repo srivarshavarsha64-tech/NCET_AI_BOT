@@ -1,4 +1,4 @@
-import streamlit at st
+import streamlit as st
 from transformers import pipeline
 
 @as.cache_resource
